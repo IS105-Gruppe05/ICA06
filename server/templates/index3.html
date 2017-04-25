@@ -1,0 +1,26 @@
+<h1>Dette er siden til Guttegruppa Agder </h1>
+<h1></h1>
+<h1></h1>
+<form enctype="multipart/form-data" action="/upload" method="GET">
+    <input type="file" name="uploadfile" />
+    <input type="hidden" name="token" value="{{.}}"/>
+    <input type="submit" value="Gjør om til tekst" />
+
+</form>
+<p></p>
+<form action="/speech">
+<input type="text" name ="text" value="" >
+<input type="submit" name ="/speech" value="Gjør om til tale" />
+    <br>
+    <br>
+<input type="radio" name="sprok" value="Norsk" checked="checked" />Norsk
+    <br><br>
+<input type="radio" name="sprok" value="Engelsk" /> Engelsk
+    <br><br>
+<input type="radio" name="sprok" value="Russisk" /> Russisk
+    <br><br>
+</form>
+
+
+
+
