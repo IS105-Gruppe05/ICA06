@@ -1,12 +1,3 @@
 # ICA06
 ICA06 Gruppe05 
-
-Gruppemedlemmer: 
-Mats Skjærvik
-Jan Kevin Henriksen
-Nils Fredrik Iselvmo Bjerk
-Morten Johan Mygland 
-Mikael Kimerud
-Eirik Aanestad Fintland
-Brede Knutsen Meli
-Abdikani Gureye
+Navnliste: Abdikani Gureye, Brede Knutsen Meli, Eirik Aanestad Fintland, Jan Kevin Henriksen, Mats Skjærvik, Mikael Kimerud, Morten Johan Mygland, Nils Fredrik Iselvmo Bjerk.
