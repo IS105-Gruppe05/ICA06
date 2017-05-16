@@ -3,6 +3,8 @@ package main
 import (
     "fmt"
 
+
+
     witai "github.com/meinside/wit.ai-go"
 )
 
@@ -11,6 +13,9 @@ const (
 )
 
 func main(){
+
+
+
 c := witai.NewClient(Token)
 
 //c.Verbose = false

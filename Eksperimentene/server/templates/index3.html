@@ -1,15 +1,53 @@
 <h1>Dette er siden til Guttegruppa Agder </h1>
 <h1></h1>
 <h1></h1>
-<form enctype="multipart/form-data" action="/upload" method="GET">
-    <input type="file" name="uploadfile" />
-    <input type="hidden" name="token" value="{{.}}"/>
-    <input type="submit" value="Gjør om til tekst" />
+    <script type="text/javascript">
+        function something()
+        {
+            startDictation();
+            window.alert("Speak to me.\n");
+            return;
+        }
+    </script>
+    <!-- CSS Styles -->
 
+    <!-- Search Form -->
+    <form id="labnol" method="get" action="https://www.google.com/search">
+            <input type="text" name="q" id="transcript" placeholder="Tale" />
+            <input type="button" value="Gjør tale til tekst" onclick="something();" />
+    </form>
+    <!-- HTML5 Speech Recognition API -->
+    <script>
+        function startDictation() {
+
+            if (window.hasOwnProperty('webkitSpeechRecognition')) {
+
+                var recognition = new webkitSpeechRecognition();
+
+                recognition.continuous = false;
+                recognition.interimResults = false;
+
+                recognition.lang = "nb-NO";
+                recognition.start();
+
+                recognition.onresult = function(e) {
+                    document.getElementById('transcript').value
+                        = e.results[0][0].transcript;
+                    recognition.stop();
+                    document.getElementById('labnol').submit();
+                };
+
+                recognition.onerror = function(e) {
+                    recognition.stop();
+                }
+
+            }
+        }
+    </script>
 </form>
 <p></p>
 <form action="/speech">
-<input type="text" name ="text" value="" >
+<input type="text" name ="text" placeholder="Tekst" >
 <input type="submit" name ="/speech" value="Gjør om til tale" />
     <br>
     <br>
@@ -20,7 +58,3 @@
 <input type="radio" name="sprok" value="Russisk" /> Russisk
     <br><br>
 </form>
-
-
-
-
