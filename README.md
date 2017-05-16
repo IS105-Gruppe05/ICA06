@@ -4,6 +4,8 @@ Navnliste: Abdikani Gureye, Brede Knutsen Meli, Eirik Aanestad Fintland, Jan Kev
 
 - I denne oppgaven har alle bidratt. Ikke alle jobber på hver sin maskin, vi jobber av og til bare på noen av pcene og det er da de som laster opp det som er gjort. Derfor kan det vise at det er bare 5/8 som har lastet opp noe. 
 
+For at disse skal virke må du bruke chrome browser.
+
 Eksperiment 1.
 
 Vi har sett på hvordan formantene i ordet "hjelp" ser ut. Måten vi gjorde dette på var at alle
