@@ -20,7 +20,7 @@ noe som må tas hensyn til. Vi så da at “æ” var en lavere frekvens kontra 
 ## Eksperiment 2.
 
 main.go i servermappa kan kjøres for å starte en lokal server(localhost:8080) som deretter
-sender en request til ht&#8203;tp://158.37.63.148:8080 som kjører espeak via espeakbox. main
+sender en request til              ht&#8203;tp://158.37.63.148:8080 som kjører espeak via espeakbox. main
 benytter eksterne golang-pakker(https://github.com/meinside/wit.ai-go
 https://github.com/nicolaifsf/go-speak) for å kjøre, og de kan installeres med go get -u
 URLforGitHubRepoHer hvis GOPATH har blitt satt opp.
