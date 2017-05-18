@@ -24,6 +24,7 @@ sender en request til "http://158.37.63.148:8080" som kjører espeak via espeakb
 benytter eksterne golang-pakker(https://github.com/meinside/wit.ai-go
 https://github.com/nicolaifsf/go-speak) for å kjøre, og de kan installeres med go get -u
 URLforGitHubRepoHer hvis GOPATH har blitt satt opp.
+
 Fungerende tekst til tale: http://158.37.63.148:8080/speech?text=hei&voice=no
 
 Eksperiment 3.
