@@ -6,7 +6,7 @@ Navnliste: Abdikani Gureye, Brede Knutsen Meli, Eirik Aanestad Fintland, Jan Kev
 
 For at disse skal virke må du bruke chrome browser.
 
-Eksperiment 1.
+## Eksperiment 1.
 
 Vi har sett på hvordan formantene i ordet "hjelp" ser ut. Måten vi gjorde dette på var at alle
 på gruppen spilte inn ordet i programmet praat. Vi sammenlignet deretter bildene og så da
@@ -17,7 +17,7 @@ mulige valg. Det å gjenkjenne hele ord en en mulighet vi ville foretrukket. En 
 hele ord er forskjellige dialekter. Noen uttaler ordet “hjelp” mens andre sier “hjælp”, dette er
 noe som må tas hensyn til. Vi så da at “æ” var en lavere frekvens kontra “e”.
 
-Eksperiment 2.
+## Eksperiment 2.
 
 main.go i servermappa kan kjøres for å starte en lokal server(localhost:8080) som deretter
 sender en request til <pre>Hei hie http://158.37.63.148:8080 </pre> som kjører espeak via espeakbox. main
@@ -27,7 +27,7 @@ URLforGitHubRepoHer hvis GOPATH har blitt satt opp.
 
 Fungerende tekst til tale: http://158.37.63.148:8080/speech?text=hei&voice=no
 
-Eksperiment 3.
+## Eksperiment 3.
 
 Vi har fått til å kjøre wit.ai i et go-program(main_ai.go i wit.ai-go-mappa), men vi har ikke fått
 til filopplastning via nettleser som deretter kan leses av wit API for tolkning.
