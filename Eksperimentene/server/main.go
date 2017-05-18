@@ -12,13 +12,13 @@ import (
 func main() {
 
 
-	http.HandleFunc("/", foo) //Denne for serveren
-	http.HandleFunc("/speech", redirect) //La denne til for den siste delen. Fjern hvis det ikke fungerer.
-	http.ListenAndServe(":8080", nil) //Denne for serveren
+	http.HandleFunc("/", foo)
+	http.HandleFunc("/speech", redirect)
+	http.ListenAndServe(":8080", nil)
 
 }
 
-func foo(w http.ResponseWriter, r *http.Request) { //funker uten dette
+func foo(w http.ResponseWriter, r *http.Request) {
 
 
 	fp3 := path.Join("templates","index3.html")
