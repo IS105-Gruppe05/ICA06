@@ -29,8 +29,7 @@ Fungerende tekst til tale: http://158.37.63.148:8080/speech?text=hei&voice=no
 
 ## Eksperiment 3.
 
-Vi har fått til å kjøre wit.ai i et go-program(main_ai.go i wit.ai-go-mappa), men vi har ikke fått
-til filopplastning via nettleser som deretter kan leses av wit API for tolkning.
+Vi har brukt JavaScript TEMP
 
 ![Bilde1](https://i.gyazo.com/5e479a1aed9f95dc1130a30be5e0ee6c.png)
 Fungerende nettside: http://158.37.63.22:8085
